@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Diffusion Dreams</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="./">Diffusion Dreams</a>
+  <nav><a href="./">Home</a><a href="privacy.html" aria-current="page">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+</div></header>
+<main class="wrap">
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated: 30 October 2026</p>
+
+  <p>This policy explains what the Diffusion Dreams production tool ("the tool") does with data it gets from
+  YouTube and Google. The tool is operated by Aykut Basan, United Kingdom
+  (contact: <a href="mailto:aykutbasan@gmail.com">aykutbasan@gmail.com</a>).</p>
+
+  <h2>YouTube API Services</h2>
+  <p>The tool uses the <strong>YouTube API Services</strong> (YouTube Data API v3 and YouTube Analytics API).
+  By using the tool you agree to be bound by the
+  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is
+  described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>Who uses the tool</h2>
+  <p>The tool is a private, self-hosted application. Its only user is the channel owner, who signs in with their own
+  Google account. It is not offered, sold or distributed to anyone else, and it shows no YouTube content to the
+  public.</p>
+
+  <h2>What we access</h2>
+  <p>With the channel owner's OAuth consent, the tool requests these scopes:</p>
+  <ul>
+    <li><code>youtube.upload</code>: to upload the owner's videos;</li>
+    <li><code>youtube.force-ssl</code>: to add subtitles, set the cover image, manage the owner's playlists and delete
+    a video the owner uploaded by mistake;</li>
+    <li><code>yt-analytics.readonly</code>: to read the owner's own channel statistics.</li>
+  </ul>
+  <p>It reads, for the owner's own uploaded videos only: the video id, privacy status, scheduled publish time,
+  view count, like count and estimated minutes watched. It does not access other channels, comments, subscribers,
+  personal information about viewers, or any data of other YouTube users.</p>
+
+  <h2>How we use it</h2>
+  <p>The data is used only to show the owner which episodes are uploaded, scheduled or public and how each one is
+  doing. It is not used for advertising, profiling, or any other purpose.</p>
+
+  <h2>Storage and retention</h2>
+  <p>The OAuth refresh token is stored in a file readable only by the tool on the owner's own server. Video ids and
+  the statistics above are stored in the tool's local database on the same server and refreshed every night.
+  Statistics are kept for as long as the episode is listed in the tool. Nothing is stored in any third-party
+  cloud.</p>
+
+  <h2>Sharing</h2>
+  <p>We do not sell, share or disclose any YouTube or Google user data to any third party.</p>
+
+  <h2>Cookies</h2>
+  <p>The tool and this website do not place cookies or similar tracking technologies on users' devices.</p>
+
+  <h2>Revoking access and deleting data</h2>
+  <p>You can revoke the tool's access at any time from the
+  <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>.
+  After access is revoked the tool can no longer call YouTube. To have all stored data (token, video ids and
+  statistics) deleted, email <a href="mailto:aykutbasan@gmail.com">aykutbasan@gmail.com</a>; it is deleted
+  within 7 days. If access is revoked, the stored API data is deleted within 30 days.</p>
+
+  <h2>Changes</h2>
+  <p>Changes to this policy are published on this page with a new "Last updated" date.</p>
+</main>
+<footer><div class="wrap">
+  <span>© 2026 Aykut Basan</span>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="mailto:aykutbasan@gmail.com">aykutbasan@gmail.com</a>
+</div></footer>
+</body>
+</html>
